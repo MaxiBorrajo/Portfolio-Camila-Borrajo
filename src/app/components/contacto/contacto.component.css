@@ -1,0 +1,50 @@
+.card--row-gap{
+    row-gap: 50px;
+}
+
+.card__li{
+    font-size: 20px;
+    font-weight: 100;
+    display: flex;
+    column-gap: 10px;
+}
+
+.card__a{
+    text-decoration: none;
+    color: #e8e8e8
+}
+
+.card__a:hover{
+    color: #3B248A
+}
+
+.card__i{
+    font-size: 30px;
+    color: #3B248A
+}
+
+.card__h1{
+    font-size: 100px;
+}
+
+.card__ul{
+    display: flex;
+    column-gap: 20px;
+}
+
+.chevron{
+    animation: first 1s linear infinite;
+    font-size: 50px;
+}
+
+@keyframes first {
+    0%{
+        transform: translateY(-2px);
+    }
+    50%{
+        transform: translateY(2px);
+    }
+    100%{
+        transform: translateY(-2px);
+    }
+}

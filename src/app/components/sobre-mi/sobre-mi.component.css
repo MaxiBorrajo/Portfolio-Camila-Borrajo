@@ -1,0 +1,30 @@
+.card--grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    column-gap: 50px;
+    
+}
+
+.card__sobre-mi{
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
+
+.card__sobre-mi__p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.card__sobre-mi__h1{
+    font-size: 90px;
+    align-items: flex-start;
+}
+
+.card__img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    border: 1px solid #e8e8e8
+}

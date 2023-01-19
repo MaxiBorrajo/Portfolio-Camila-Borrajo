@@ -1,1 +1,124 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lista{
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.height-auto{
+    height: auto!important;
+}
+
+.height-100{
+    height: 100%;
+}
+
+.first-background{
+    background-color: #1b1a21;
+}
+
+.second-background{
+    background-color: #CDC3EE;
+}
+
+.first-color{
+    color: #e8e8e8;
+}
+
+.second-color{
+    color: #3B248A;
+}
+
+.first-font{
+    font-family: 'DM Serif Display', serif;
+}
+
+.second-font{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.row1{
+    grid-row: 1/2;
+}
+
+.row2{
+    grid-row:2/3;
+}
+
+.col1{
+    grid-column: 1/2;
+}
+
+.col2{
+    grid-column: 2/3;
+}
+
+.col3{
+    grid-column: 3/4;
+}
+
+.col4{
+    grid-column: 4/5;
+}
+
+.flex-center{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-center--column{
+    flex-direction: column;
+}
+
+.card{
+    border-radius: 10px;
+    height: 80%;
+    width: 80%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgba(232, 232, 232, 0.5)
+}
+
+.glassmorfism{
+    background: rgba(2, 2, 2, 0.5);
+    box-shadow: 8px 8px 32px 0 rgba(32, 30, 30, 0.37),
+                -8px -8px 32px 0 rgba(32, 30, 30, 0.37);
+    backdrop-filter: saturate(100%) grayscale(100%) contrast(100%) brightness(80%);
+}
+
+.video{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+.capa{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+}
+
+.container--over{
+    position: relative;
+    z-index: 2;
+}

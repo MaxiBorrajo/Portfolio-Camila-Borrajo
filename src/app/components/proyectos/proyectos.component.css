@@ -1,0 +1,23 @@
+.card--row-gap{
+    row-gap: 20px;
+}
+
+.card__publicacion-container{
+    column-gap: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card__publicacion{
+    width: 175px;
+    height: 300px;
+}
+
+.card__h1{
+    font-size: 50px;
+}
+
+.card__h2{
+    font-size: 20px;
+    font-weight: 100;
+}
